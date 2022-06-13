@@ -540,7 +540,7 @@ a{
         "sec2"
         "contacto"
         "footer";
-        grid-template-rows: 0.15fr 0.4fr 2fr 1fr 1fr;
+        grid-template-rows: 0.15fr 0.4fr 2fr 1fr 0.15fr;
         grid-template-columns: 100%;
     }
     nav{
@@ -607,7 +607,7 @@ a{
         border: 1px solid rgba(0, 0, 0, 0.5);
     }
     #botonEnviar{
-        margin-right: 90%;
+        float: left;
     }
     #contacto{
         grid-area: contacto;
