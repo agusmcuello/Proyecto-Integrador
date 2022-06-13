@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nexos</title>
+    <link rel="stylesheet" href="../Proyecto Integrador/Proyecto.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <img
+        src="../Proyecto Integrador/Materiales/logo.png"
+        width="100px"
+        height="20px"
+        id="logo"
+        alt="Logo"
+      />
+      <ul class="lista">
+        <li>
+          <a href="#sec1"><b>Nosotros</b></a>
+        </li>
+        <li>
+          <a href="#noticias"><b>Noticias</b></a>
+        </li>
+        <li>
+          <a href="#contacto"><b>Ayuda</b></a>
+        </li>
+      </ul>
+      <button id="boton">INGRESAR</button>
+    </nav>
+    <header>
+      <h1>¡Actúa para cambiar el mundo!</h1>
+      <p id="central">
+        Fomentamos el vínculo entre empresas y organizaciones civiles para
+        generar un impacto positivo en la sociedad. <br />
+        Descubrí diferentes maneras de involucrar tu organización con la
+        sociedad.
+      </p>
+    </header>
+    <article id="sec1">
+      <div id="contenedorEmpresa">
+        <img
+          src="../Proyecto Integrador/Materiales/oficina.png"
+          alt="oficina"
+          width="35%"
+          height="210px%"
+        />
+        <div id="textoEmpresa">
+          <h2>Soluciones para empresas</h2>
+          <p class="textoArt">
+            Generamos un medio para que las empresas se involucren en <br />
+            actividades de responsabilidad social. <br />
+            ¡Creá un grupo de voluntarios en tu organización y se parte del
+            <br />
+            cambio!.
+          </p>
+        </div>
+      </div>
+      <div id="contenedorVoluntariado">
+        <div id="voluntariado">
+          <h2>Soluciones para organizaciones</h2>
+          <p class="textoArt">
+            Apoyamos a las organizaciones sociales para que alcancen sus <br />
+            objetivos. Ponemos a su disposición una comunidad de voluntarios
+            <br />
+            dispuestos a apoyarlas en sus necesidades. <br />
+            Equipos de voluntarios por empresas dispuestos a potenciar tu <br />
+            impacto en la sociedad.
+          </p>
+        </div>
+        <img
+          src="../Proyecto Integrador/Materiales/voluntariado.jpg"
+          width="35%"
+          height="210px"
+          alt="voluntariado"
+        />
+      </div>
+    </article>
+    <article id="sec2">
+      <div id="oportunidades">
+        <h2>Encuentra las mejores oportunidades</h2>
+        <br />
+        <p class="textoArt">
+          La plataforma cuenta con una gran variedad de proyectos
+          locales(sociales, educativos y medioambientales), donde <br />
+          encontrarás el que mejor se adapte a la experiencia que estas
+          buscando.
+          <br />
+          Te ayudamos en la coordinación con la gran organización de forma
+          simple y rápida.
+        </p>
+      </div>
+      <div id="contenedorTarjetas">
+        <div class="tarjeta" id="serVoluntario">
+          <img
+            class="iconoTarjeta"
+            id="manoVoluntario"
+            src="../Proyecto Integrador/Materiales/icono-mano.png"
+            alt="icono-mano"
+          />
+          <img
+            class="iconoMas"
+            src="../Proyecto Integrador/Materiales/icono-mas.png"
+            alt="icono-mas"
+          />
+          <h2 class="tituloTarjeta" id="tituloVoluntario">Ser voluntario</h2>
+        </div>
+        <div class="tarjeta" id="donar">
+          <img
+            class="iconoTarjeta"
+            src="../Proyecto Integrador/Materiales/icono-mano-corazon.png"
+            alt="icono-mano-corazon"
+          />
+          <img
+            class="iconoMas"
+            src="../Proyecto Integrador/Materiales/icono-mas.png"
+            alt="icono-mas"
+          />
+          <h2 class="tituloTarjeta">Donar</h2>
+        </div>
+        <div class="tarjeta" id="reciclar">
+          <img
+            class="iconoTarjeta"
+            src="../Proyecto Integrador/Materiales/icono-reciclar.png"
+            alt="icono-reciclar"
+          />
+          <img
+            class="iconoMas"
+            src="../Proyecto Integrador/Materiales/icono-mas.png"
+            alt="icono-mas"
+          />
+          <h2 class="tituloTarjeta">Reciclar</h2>
+        </div>
+        <div class="tarjeta" id="llamadosLaborales">
+          <img
+            class="iconoTarjeta"
+            src="../Proyecto Integrador/Materiales/icono-maletin.png"
+            alt="icono-maletin"
+          />
+          <img
+            class="iconoMas"
+            src="../Proyecto Integrador/Materiales/icono-mas.png"
+            alt="icono-mas"
+          />
+          <h2 class="tituloTarjeta">Llamados laborales</h2>
+        </div>
+      </div>
+    </article>
+    <article id="noticias">
+      <h1 id="noticiasTitulo">Noticias</h1>
+      <p id="textoNoticias"><u>ver todos</u></p>
+      <div id="carrusel">
+        <a href="#" class="left-arrow"><img src="../Proyecto Integrador/Materiales/left-arrow.png" /></a>
+        <a href="#" class="right-arrow"><img src="../Proyecto Integrador/Materiales/right-arrow.png" /></a>
+        <div class="carrusel">
+            <div class="product" id="product_0">
+                <img class="imagenNoticia"  src="../Proyecto Integrador/Materiales/noticia2.jpg"/>
+                <button class="botonNoticia">SOCIALES</button>
+                <div class="infoNoticia">
+                  <span><img src="../Proyecto Integrador/Materiales/icono-calendario.png" width="15px" height="17px" alt="icono-calendario"> 13/06/2022 <img class="reloj" src="../Proyecto Integrador/Materiales/icono-reloj.png" alt="icono-reloj" width="15px" height="15px">6min</span>
+                </div>
+               <div class="contenidoNoticia">
+                <h5 class="subtituloNoticia">Paro del PIT-CNT</h5>
+                <p class="cuerpoNoticia">Por la reciente baja de salarios, la central sindical llama a sus trabajadores afiliados a detener sus actividades en las siguientes 24 horas. 
+                  <br>
+                  <br>
+                </p>
+               </div>
+               <p class="finNoticia"><img class="flecha2" src="../Proyecto Integrador/Materiales/icono-flecha.png" alt="icono-flecha">ver más</p>
+            </div>
+            <div class="product" id="product_1">
+                <img class="imagenNoticia" src="../Proyecto Integrador/Materiales/noticia 1.jpg"/>
+                <button class="botonNoticia">GASTRONOMIA</button>
+                <div class="infoNoticia">
+                  <span><img src="../Proyecto Integrador/Materiales/icono-calendario.png" width="15px" height="17px" alt="icono-calendario"> 13/06/2022<img class="reloj" src="../Proyecto Integrador/Materiales/icono-reloj.png" alt="icono-reloj" width="15px" height="15px">2min</span>
+                </div>
+                <div class="contenidoNoticia">
+                <h5>Suba de precios en restaurantes</h5>
+                <p class="cuerpoNoticia">Entre enero y junio del 2022 se manifiesta una suba del 20% en los precios de las distintas propuestas gastronómicas, si comparamos con el mismo período del 2021.</p>
+                <p class="finNoticia"><img class="flecha2" src="../Proyecto Integrador/Materiales/icono-flecha.png" alt="icono-flecha">ver más</p>
+                </div>
+            </div>
+            <div class="product" id="product_2">
+                <img class="imagenNoticia" src="../Proyecto Integrador/Materiales/noticia 3.jpg"/>
+                <button class="botonNoticia">INTERNACIONAL</button>
+                <div class="infoNoticia">
+                  <span><img src="../Proyecto Integrador/Materiales/icono-calendario.png" width="15px" height="17px" alt="icono-calendario"> 12/06/2022 <img class="reloj" src="../Proyecto Integrador/Materiales/icono-reloj.png" alt="icono-reloj" width="15px" height="15px">4min</span>
+                </div>
+                <div class="contenidoNoticia">
+                <h5>Continúa la guerra</h5>
+                <p class="cuerpoNoticia">Continuan los confilctos bélicos entre Ucrania y Rusia. La ciudad de Kiev resiste las oleadas de ataques rusos todos los días.
+                  <br>
+                  <br>
+                </p>
+                <p class="finNoticia"><img class="flecha2" src="../Proyecto Integrador/Materiales/icono-flecha.png" alt="icono-flecha">ver más</p>
+                </div>
+            </div>
+            <div class="product" id="product_3">
+                <img class="imagenNoticia" src="../Proyecto Integrador/Materiales/noticia 4.jpg"/>
+                <button class="botonNoticia">CULTURALES</button>
+                <div class="infoNoticia">
+                  <span><img src="../Proyecto Integrador/Materiales/icono-calendario.png" width="15px" height="17px" alt="icono-calendario"> 11/06/2022 <img class="reloj" src="../Proyecto Integrador/Materiales/icono-reloj.png" alt="icono-reloj" width="15px" height="15px">5min</span>
+                </div>
+                <div class="contenidoNoticia">
+                <h5>Se han robado el David</h5>
+                <p class="cuerpoNoticia">La famosa copia de la escultura realizada en 1501 por Miguel Ángel ha sido usurpada de la Galeria de la Academia de Florencia 
+                  <br>
+                  <br>
+                </p>
+                <p class="finNoticia"><img class="flecha2" src="../Proyecto Integrador/Materiales/icono-flecha.png" alt="icono-flecha">ver más</p>
+                </div>
+            </div>
+            <div class="product" id="product_4">
+                <img class="imagenNoticia" src="../Proyecto Integrador/Materiales/noticia 5.jpg"/>
+                <button class="botonNoticia">OCIO</button>
+                <div class="infoNoticia">
+                  <span><img src="../Proyecto Integrador/Materiales/icono-calendario.png" width="15px" height="17px" alt="icono-calendario"> 11/06/2022 <img class="reloj" src="../Proyecto Integrador/Materiales/icono-reloj.png" alt="icono-reloj" width="15px" height="15px">3min</span>
+                </div>
+               <div class="contenidoNoticia">
+                <h5>Vuelve el carnaval a La Pedrera</h5>
+                <p class="cuerpoNoticia">Se han retomado las conversaciones para que vuelva a funcionar la fiesta que febrero tras febrero hace las delicias de los jovenes de todo el pais. 
+                  <br>
+                  <br>
+                </p>
+                <p class="finNoticia"><img class="flecha2" src="../Proyecto Integrador/Materiales/icono-flecha.png" alt="icono-flecha">ver más</p>
+               </div>
+            </div>
+            <div class="product" id="product_5">
+                <img class="imagenNoticia" src="../Proyecto Integrador/Materiales/noticia 6.jpg"/>
+                <button class="botonNoticia">ACTUALIDAD</button>
+                <div class="infoNoticia">
+                  <span><img src="../Proyecto Integrador/Materiales/icono-calendario.png" width="15px" height="17px" alt="icono-calendario"> 10/06/2022 <img class="reloj" src="../Proyecto Integrador/Materiales/icono-reloj.png" alt="icono-reloj" width="15px" height="15px">7min</span>
+                </div>
+               <div class="contenidoNoticia">
+                <h5>Incendio en Las Toscas</h5>
+                <p class="cuerpoNoticia">Ya van más de doce hectáreas de campo quemado a manos de un fuego que sigue sin poder extinguirse. Los bomberos solicitan ayuda a las autoridades.</p>
+                <p class="finNoticia"><img class="flecha2" src="../Proyecto Integrador/Materiales/icono-flecha.png" alt="icono-flecha">ver más</p>
+               </div>
+            </div>
+        </div>
+    </div>
+    </article>
+    <section id="contacto">
+      <div id="contenedorImagenContacto">
+        <img id="imgContacto"
+          src="../Proyecto Integrador/Materiales/laptop-escritorio.jpg"
+          alt=""
+          width="75%"
+          height="50%"
+        />
+      </div>
+      <div id="contenedorContacto">
+        <h1 id="tituloContacto">Contacto</h1>
+        <br />
+        <form action="contacto">
+          <div id="contenedorFormulario">
+            <div id="contenedorFormularioUno">
+              <label for="dato" class="textoArt"
+                >Texto dato <br /><input
+                  type="text"
+                  size="30px"
+                  placeholder="Dato a completar"
+                  class="textoDato"
+              /></label>
+              <br />
+              <label for="dato" class="textoArt"
+                >Texto dato <br  /><input
+                  type="text"
+                  size="30px"
+                  placeholder="Dato a completar"
+                  class="textoDato"
+              /></label>
+            </div>
+            <br />
+            <div id="contenedorFormularioDos">
+              <label class="textoArt" for="mensaje" id="tituloMensaje"
+                >Mensaje <br /><input
+                  type="text"
+                  placeholder="Escriba su mensaje aquí"
+                  id="textoMensaje"
+              /></label>
+            </div>
+          </div>
+          <br />
+          <button id="botonEnviar">ENVIAR</button>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <hr />
+      <div id="contenedorFooter">
+        <img
+          src="../Proyecto Integrador/Materiales/logo-blanco.png"
+          alt="logo-blanco"
+          width="110px"
+          height="23px"
+          id="logoBlanco"
+        />
+        <ul id="listaFooter">
+          <li>Nosotros</li>
+          <li>Noticias</li>
+          <li>Contacto</li>
+          <li>Términos y condiciones</li>
+        </ul>
+        <div id="footerIzquierda">
+          <h4 id="seguinos">Seguinos!</h4>
+          <div class="redes">
+            <img
+              width="30px"
+              height="30px"
+              id="instagram"
+              src="../Proyecto Integrador/Materiales/iconoInstagram.png"
+              alt="iconoInstagram"
+            />
+            <img
+              src="../Proyecto Integrador/Materiales/iconoTwitter.png"
+              alt="iconoTwitter"
+            />
+            <img
+              src="../Proyecto Integrador/Materiales/iconoFacebook.png"
+              alt="facebook"
+            />
+          </div>
+        </div>
+      </div>
+      <hr />
+  <p id="copyright">Copyright &#9400 All rights reserved.</p>
+    </footer>
+    <div class="modal">
+      <div class="modal-content">
+            <img id="imagenModal" src="../Proyecto Integrador/Materiales/imagen-modal.JPG" alt="imagen-modal">
+            <div id="contenedorModal">
+              <div class="modalSuperior">
+                <img class="flechaRotada" src="../Proyecto Integrador/Materiales/icono-flecha.png" alt="icono-flecha">
+                <span id="volverAtras">volver atrás</span>
+                <span class="close-button">&times;</span>
+              </div>
+            <div id="modalOpciones">
+              <h3 id="modalTitulo">REGISTRAR</h3> 
+              <div id="miEmpresa">
+                <div id="imagenEmpresa">
+                  <img src="../Proyecto Integrador/Materiales/icono-maletin.png" alt="icono-maletin-2" width="20px" height="20px">
+                </div>
+                <div id="infoEmpresa">
+                  <h3 id="tituloEmpresa"><b>MI EMPRESA</b></h3>
+                <p class="textoArt">Breve explicación a lo que nos <br>
+                referimos</p>
+                <img class="flecha" src="../Proyecto Integrador/Materiales/icono-flecha.png" alt="icono-flecha">
+                </div>
+              </div>
+              <div id="miOrganizacion">
+                <div id="imagenOrganizacion">
+                  <img src="../Proyecto Integrador/Materiales/icono-persona.png" width="20px" height="20px" alt="icono-persona">
+                </div>
+                <div id="infoOrganizacion">
+                  <h3 id="tituloOrganizacion"><b>MI ORGANIZACIÓN</b></h3>
+                <p class="textoArt">Estamos para ayudarlos<br>
+                  a obtener éxito</p>
+                  <img class="flecha" src="../Proyecto Integrador/Materiales/icono-flecha.png" alt="icono-flecha">
+                </div>
+              </div>
+            </div>
+            </div>
+      </div>
+  </div>
+  <script src="../Proyecto Integrador/Proyecto.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script>
+var current = 0;
+var imagenes = new Array();
+ 
+$(document).ready(function() {
+    var numImages = 6;
+    if (numImages <= 3) {
+        $('.right-arrow').css('display', 'none');
+        $('.left-arrow').css('display', 'none');
+    }
+ 
+    $('.left-arrow').on('click',function() {
+        if (current > 0) {
+            current = current - 1;
+        } else {
+            current = numImages - 3;
+        }
+ 
+        $(".carrusel").animate({"left": -($('#product_'+current).position().left)}, 600);
+ 
+        return false;
+    });
+ 
+    $('.left-arrow').on('hover', function() {
+        $(this).css('opacity','0.5');
+    }, function() {
+        $(this).css('opacity','1');
+    });
+ 
+    $('.right-arrow').on('hover', function() {
+        $(this).css('opacity','0.5');
+    }, function() {
+        $(this).css('opacity','1');
+    });
+ 
+    $('.right-arrow').on('click', function() {
+        if (numImages > current + 3) {
+            current = current+1;
+        } else {
+            current = 0;
+        }
+ 
+        $(".carrusel").animate({"left": -($('#product_'+current).position().left)}, 600);
+ 
+        return false;
+    }); 
+ });
+</script>
+  </body>
+</html>
