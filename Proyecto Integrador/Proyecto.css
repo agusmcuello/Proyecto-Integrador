@@ -532,7 +532,7 @@ a{
         margin: 0; 
         box-sizing: border-box;
         width: 100%;
-        height: 150rem;
+        height: 100%;
         display: grid;
         grid-template-areas: 
         "nav"
@@ -540,7 +540,11 @@ a{
         "sec2"
         "contacto"
         "footer";
-        grid-template-rows: 3% 7% 37% 18% 4%;
+        grid-template-rows: 0.15fr 0.4fr 2fr 1fr 1fr;
+        grid-template-columns: 100%;
+    }
+    nav{
+        grid-area: nav;
     }
     #noticias{
         display: none;
@@ -639,6 +643,7 @@ a{
         display: none;
     }
     #contenedorFooter{
+        grid-area: footer;
         align-items: center;
         justify-content: center;
     }
