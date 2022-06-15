@@ -1,0 +1,31 @@
+#sec1{
+    grid-area: sec1;
+    background-image: linear-gradient(rgb(82,152,255),rgb(28, 120, 253));
+}
+#contenedorEmpresa{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    color: white;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+#textoEmpresa{
+    padding: 5%;
+}
+#contenedorVoluntariado{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+}
+h2{
+    margin: 0;
+    font-weight:normal;
+}
+#voluntariado{
+    padding: 4%;   
+}
+.textoArt{
+    font-size: small;
+}

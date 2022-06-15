@@ -1,0 +1,13 @@
+header{
+    grid-area: header;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(../materiales/manos.jpg);
+    text-align: center;
+    color: white;
+}
+#central{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+h1{
+    margin-top: 10%;
+}
